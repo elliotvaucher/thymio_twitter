@@ -1,7 +1,5 @@
 # Thymio X Twitter
 
-**Using Twitter + NLP to give Thymio artificial (emotional) intelligence.**
-
 - [Summary](#summary)
 - [Libraries](#libraries)
 - [Installation](#installation)
