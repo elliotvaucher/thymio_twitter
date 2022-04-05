@@ -21,7 +21,7 @@ The main program uses the following libraries :
 - [TDM client](https://pypi.org/project/tdmclient/) : Communication with Thymio II robot via the Thymio Device Manager
 - [Tweepy](https://www.tweepy.org/) : Python library for accessing the Twitter API
 - [RE](https://docs.python.org/3/library/re.html) : Regular expressions operations
-- [Textblob](https://textblob.readthedocs.io/en/dev/) : Python (2 and 3) library for processing textual data
+- [Textblob](https://textblob.readthedocs.io/en/dev/) : Python library for processing textual data
 
 ## Installation
 
