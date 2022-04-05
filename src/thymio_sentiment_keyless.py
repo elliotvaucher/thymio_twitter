@@ -123,13 +123,16 @@ def main():
    for tweet in ntweets[:10]:
       print(tweet['text'])
 
+   # checking if length of positive is bigger than negative
    if (100*len(ptweets)/len(tweets)) >= (100*len(ntweets)/len(tweets)):
 	   sentiment_final = True
    else:
 	   sentiment_final = False
 
+   # constructing clientasync object
    client = ClientAsync()
 
+   # checking if sentiment_final is true
    if sentiment_final == True:
      def leds(r, g, b):
        return {
