@@ -1,37 +1,45 @@
-## Welcome to GitHub Pages
+# Thymio X Twitter
 
-You can use the [editor on GitHub](https://github.com/elliotvaucher/thymio_twitter/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+- [Summary](#summary)
+- [Libraries](#libraries)
+- [Installation](#installation)
+- [Documentation](#documentation)
+- [Credits](#credits)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Summary 
 
-### Markdown
+[Thymio](https://www.thymio.org/) is an open-source educational robot designed by researchers from the [EPFL](https://www.epfl.ch/en/), in collaboration with [ECAL](https://www.ecal.ch/fr/100/homepage), and produced by Mobsya, a nonprofit association whose mission is to offer comprehensive, engaging STEAM journeys to learners of all ages.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+This repository showcases a proof of concept I wrote for a [webinar about the Thymio robot](https://www.thymio.org/fr/webinar_post/)[^1] that connects to the Twitter API, fetches recent tweets where Thymio is mentioned, performs sentiment analysis on the content of the tweets, and activates the green Thymio leds if the result is positive, and the red leds if it's negative. Thus, it gives Thymio a kind of **artificial emotionnal intelligence**. 
 
-```markdown
-Syntax highlighted code block
+Further developments would include improving the quality of my code, obviously, but also bringing the concept of creating a bridge between live feeds via API's and actual robots reacting to this live information. **Using Machine Learning on live feeds of information seems like an interesting path in giving connected objects a kind of autonomous and spontaneous intelligence**.
 
-# Header 1
-## Header 2
-### Header 3
+## Libraries
 
-- Bulleted
-- List
+The main program uses the following libraries : 
 
-1. Numbered
-2. List
+- [TDM client](https://pypi.org/project/tdmclient/) : Communication with Thymio II robot via the Thymio Device Manager
+- [Tweepy](https://www.tweepy.org/) : Python library for accessing the Twitter API
+- [RE](https://docs.python.org/3/library/re.html) : Regular expressions operations
+- [Textblob](https://textblob.readthedocs.io/en/dev/) : Python library for processing textual data
 
-**Bold** and _Italic_ and `Code` text
+## Installation
 
-[Link](url) and ![Image](src)
-```
+- A comprehensive guide to using Thymio from scratch can be found here : https://www.thymio.org/products/programming-with-thymio-suite/. 
+- In order to use the Twitter API, one has to create a developper account and request for API keys : https://developer.twitter.com/en/docs/twitter-api.
+- A very useful guide to the process of creating a Twitter API developper account and setting up various twitter bots using Tweepy can be found here : https://realpython.com/twitter-bot-python-tweepy. 
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+## Documentation
 
-### Jekyll Themes
+Here are the slides I prepared for the actual [webinar about the Thymio robot](https://www.thymio.org/fr/webinar_post/) : https://github.com/elliotvaucher/thymio_twitter/blob/main/docs/presentation_thymio.html.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/elliotvaucher/thymio_twitter/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Note : this presentation was written in markdown via this tool : https://github.com/adamzap/landslide. 
 
-### Support or Contact
+The source markdown file is visible here, for information : https://github.com/elliotvaucher/thymio_twitter/blob/main/docs/thymio.md.
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## Credits 
+
+The functions for sentiment analysis using textblob were taken from this tutorial : https://www.geeksforgeeks.org/twitter-sentiment-analysis-using-python/. 
+The step by step guide for setting-up Twitter API keys comes from here : https://realpython.com/twitter-bot-python-tweepy.
+
+[^1]: The webinar presents a Python library used to control the robot with Python code. More information about controling Thymio with Python can be found [here](https://www.robot-advance.com/EN/actualite-python-with-thymio-complete-guide-228.htm). 
