@@ -4,6 +4,7 @@
 - [Libraries](#libraries)
 - [Installation](#installation)
 - [Documentation](#documentation)
+- [Credits](#credits)
 
 ## Summary 
 
@@ -33,3 +34,8 @@ Here are the slides I prepared for the actual [webinar about the Thymio robot](h
 Note : this presentation was written in markdown via this tool : https://github.com/adamzap/landslide. 
 
 The source markdown file is visible here, for information : https://github.com/elliotvaucher/thymio_twitter/blob/main/docs/thymio.md.
+
+## Credits 
+
+The functions for sentiment analysis using textblob were taken from this tutorial : https://www.geeksforgeeks.org/twitter-sentiment-analysis-using-python/. 
+The step by step guide for setting-up Twitter API keys comes from here : https://realpython.com/twitter-bot-python-tweepy.
