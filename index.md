@@ -25,21 +25,21 @@ The main program uses the following libraries :
 
 ## Installation
 
-- A comprehensive guide to using Thymio from scratch can be found here : https://www.thymio.org/products/programming-with-thymio-suite/. 
-- In order to use the Twitter API, one has to create a developper account and request for API keys : https://developer.twitter.com/en/docs/twitter-api.
-- A very useful guide to the process of creating a Twitter API developper account and setting up various twitter bots using Tweepy can be found here : https://realpython.com/twitter-bot-python-tweepy. 
+- A comprehensive guide to using Thymio from scratch can be found [here](https://www.thymio.org/products/programming-with-thymio-suite/) 
+- In order to use the Twitter API, one has to create a developper account and [request for API keys](https://developer.twitter.com/en/docs/twitter-api)
+- A very useful guide to the process of creating a Twitter API developper account and setting up various twitter bots using Tweepy can be found [here](https://realpython.com/twitter-bot-python-tweepy)
 
 ## Documentation
 
-Here are the slides I prepared for the actual [webinar about the Thymio robot](https://www.thymio.org/fr/webinar_post/) : https://github.com/elliotvaucher/thymio_twitter/blob/main/docs/presentation_thymio.html.
+[Here](https://github.com/elliotvaucher/thymio_twitter/blob/main/docs/presentation_thymio.html) are the html slides I prepared for the actual [webinar about the Thymio robot](https://www.thymio.org/fr/webinar_post/). 
 
-Note : this presentation was written in markdown via this tool : https://github.com/adamzap/landslide. 
+Note : this presentation was written in markdown via [this tool](https://github.com/adamzap/landslide)
 
-The source markdown file is visible here, for information : https://github.com/elliotvaucher/thymio_twitter/blob/main/docs/thymio.md.
+The source markdown file is visible [here](https://github.com/elliotvaucher/thymio_twitter/blob/main/docs/thymio.md), for information.
 
 ## Credits 
 
-The functions for sentiment analysis using textblob were taken from this tutorial : https://www.geeksforgeeks.org/twitter-sentiment-analysis-using-python/. 
-The step by step guide for setting-up Twitter API keys comes from here : https://realpython.com/twitter-bot-python-tweepy.
+The functions for sentiment analysis using textblob were taken from [this tutorial](https://www.geeksforgeeks.org/twitter-sentiment-analysis-using-python/) 
+The step by step guide for setting-up Twitter API keys comes from [here](https://realpython.com/twitter-bot-python-tweepy)
 
 [^1]: The webinar presents a Python library used to control the robot with Python code. More information about controling Thymio with Python can be found [here](https://www.robot-advance.com/EN/actualite-python-with-thymio-complete-guide-228.htm). 
