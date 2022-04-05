@@ -12,7 +12,7 @@
 
 This repository showcases a proof of concept I wrote for a [webinar about the Thymio robot](https://www.thymio.org/fr/webinar_post/)[^1] that connects to the Twitter API, fetches recent tweets where Thymio is mentioned, performs sentiment analysis on the content of the tweets, and activates the green Thymio leds if the result is positive, and the red leds if it's negative. Thus, it gives Thymio a kind of **artificial emotionnal intelligence**. 
 
-Further developments would include improving the quality of my code, obviously, but also bringing the concept of creating a bridge between live feeds via API's and actual robots reacting to this live information. **Using Machine Learning on live feeds of information could constitute a first step in giving connected objects a kind of autonomous and spontaneous intelligence**. 
+Further developments would include improving the quality of my code, obviously, but also bringing the concept of creating a bridge between live feeds via API's and actual robots reacting to this live information. **Using Machine Learning on live feeds of information seems like an interesting path in giving connected objects a kind of autonomous and spontaneous intelligence**.
 
 ## Libraries
 
