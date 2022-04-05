@@ -34,4 +34,4 @@ Here are the slides I prepared for the actual [webinar about the Thymio robot](h
 
 Note : this presentation was written in markdown via this tool : https://github.com/adamzap/landslide. 
 
-The source markdown file is visible here, for information : https://github.com/elliotvaucher/thymio_twitter/blob/main/docs/thymio.md
+The source markdown file is visible here, for information : https://github.com/elliotvaucher/thymio_twitter/blob/main/docs/thymio.md.
