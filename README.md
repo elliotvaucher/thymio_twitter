@@ -31,7 +31,7 @@ The main program uses the following libraries :
 
 ## Documentation
 
-Here are the slides I prepared for the actual [webinar about the Thymio robot](https://www.thymio.org/fr/webinar_post/) : https://github.com/elliotvaucher/thymio_twitter/blob/main/docs/presentation_thymio.html.
+Here is an html version of the slides I prepared for the actual [webinar about the Thymio robot](https://www.thymio.org/fr/webinar_post/) : https://github.com/elliotvaucher/thymio_twitter/blob/main/docs/presentation_thymio.html.
 
 Note : this presentation was written in markdown via this tool : https://github.com/adamzap/landslide. 
 
