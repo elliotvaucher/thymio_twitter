@@ -10,7 +10,11 @@
 
 [Thymio](https://www.thymio.org/) is an open-source educational robot designed by researchers from the [EPFL](https://www.epfl.ch/en/), in collaboration with [ECAL](https://www.ecal.ch/fr/100/homepage), and produced by Mobsya, a nonprofit association whose mission is to offer comprehensive, engaging STEAM journeys to learners of all ages.
 
-This repository showcases a proof of concept I wrote for a [webinar about the Thymio robot](https://www.thymio.org/fr/webinar_post/). The webinar presents a Python library used to control the robot with Python code. More information about controling Thymio with Python can be found [here](https://www.robot-advance.com/EN/actualite-python-with-thymio-complete-guide-228.htm). 
+This repository showcases a proof of concept I wrote for a [webinar about the Thymio robot](https://www.thymio.org/fr/webinar_post/) that connects to the Twitter API, fetches recent tweets where Thymio is mentioned, performs sentiment analysis on the content of the tweets, and activates the green Thymio leds if the result is positive, and the red leds if it's negative. Thus, it gives Thymio a kind of **artificial emotionnal intelligence**. 
+
+Further developments would include improving the quality of my code, obviously, but also bringing the concept of creating a bridge between live feeds via API's and actual robots reacting to this live information. **Using Machine Learning on live feeds of information could constitute a first step in giving connected objects a kind of autonomous and spontaneous intelligence**. 
+
+The webinar presents a Python library used to control the robot with Python code. More information about controling Thymio with Python can be found [here](https://www.robot-advance.com/EN/actualite-python-with-thymio-complete-guide-228.htm). 
 
 ## Libraries
 
