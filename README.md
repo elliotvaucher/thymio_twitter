@@ -5,6 +5,7 @@
 - [Summary](#summary)
 - [Libraries](#libraries)
 - [Installation](#installation)
+- [Documentation](#documentation)
 
 ## Summary 
 
@@ -26,3 +27,11 @@ The main program uses the following libraries :
 - A comprehensive guide to using Thymio from scratch can be found here : https://www.thymio.org/products/programming-with-thymio-suite/. 
 - In order to use the Twitter API, one has to create a developper account and request for API keys : https://developer.twitter.com/en/docs/twitter-api.
 - A very useful guide to the process of creating a Twitter API developper account and setting up various twitter bots using Tweepy can be found here : https://realpython.com/twitter-bot-python-tweepy. 
+
+## Documentation
+
+Here are the slides I prepared for the actual [webinar about the Thymio robot](https://www.thymio.org/fr/webinar_post/) : https://github.com/elliotvaucher/thymio_twitter/blob/main/docs/presentation_thymio.html.
+
+Note : this presentation was written in markdown via this tool : https://github.com/adamzap/landslide. 
+
+The source markdown file is visible here, for information : https://github.com/elliotvaucher/thymio_twitter/blob/main/docs/thymio.md
