@@ -10,6 +10,7 @@ Proof of concept
 
 # Content
 
+0. Demo
 1. Research
 2. Principles
 3. Concepts
@@ -17,6 +18,14 @@ Proof of concept
 5. Details
 6. Enhancements
 7. Conclusion
+
+---
+
+# 0. Demo
+
+[GitHub Pages](https://elliotvaucher.github.io/thymio_twitter/)
+[GitHub Repo](https://github.com/elliotvaucher/thymio_twitter)
+[Vidéo Demo](https://files.modulo-info.ch/thymio_twitter.m4v)
 
 ---
 
