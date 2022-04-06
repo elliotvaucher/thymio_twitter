@@ -23,9 +23,9 @@ Proof of concept
 
 # 0. Demo
 
-[GitHub Pages](https://elliotvaucher.github.io/thymio_twitter/)
-[GitHub Repo](https://github.com/elliotvaucher/thymio_twitter)
-[Vidéo Demo](https://files.modulo-info.ch/thymio_twitter.m4v)
+- [GitHub Pages](https://elliotvaucher.github.io/thymio_twitter/)
+- [GitHub Repo](https://github.com/elliotvaucher/thymio_twitter)
+- [Vidéo Demo](https://files.modulo-info.ch/thymio_twitter.m4v)
 
 ---
 
