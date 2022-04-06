@@ -4,7 +4,7 @@
 
 Proof of concept
 
-![Thymio](_assets/thymio.png)
+![thymio](https://user-images.githubusercontent.com/67040832/161983076-a0725d35-0013-45b0-88d9-ca16d8b44035.png)
 
 ---
 
